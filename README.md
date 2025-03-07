@@ -73,7 +73,9 @@ Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building wit
 
 ## Evidence of Contract Verification
 
-https://sepolia.scrollscan.com/verifyContract-solc?a=0x8950E863d4cb1442e3dc338e6a1D2803291a0fda&c=v0.8.26%2Bcommit.8a97fa7a&lictype=3
+- Link : https://sepolia.scrollscan.com/verifyContract-solc?a=0x8950E863d4cb1442e3dc338e6a1D2803291a0fda&c=v0.8.26%2Bcommit.8a97fa7a&lictype=3
+  ![nft 7](https://github.com/user-attachments/assets/95f685b0-cf66-4b1d-ae18-d784af08994b)
+
 
 To know more about its features, check out our [website](https://scaffoldeth.io).
 
@@ -81,8 +83,11 @@ To know more about its features, check out our [website](https://scaffoldeth.io)
 
 We welcome contributions to Scaffold-ETH 2!
 
-## Screenshot
+## Screenshot of prototype 
 ![nft 1](https://github.com/user-attachments/assets/4bca3ff3-9ac8-41c2-b2f8-86c9a6291b1b)
+![nft 3](https://github.com/user-attachments/assets/1b9f5b61-89d0-4480-9600-757d70959a43)
+![nft 4](https://github.com/user-attachments/assets/9fd4f6fc-1c48-43ee-b3e7-0b13ac56c3ae)
+![nft 6](https://github.com/user-attachments/assets/6f948c80-fa5f-47c2-97f4-aa73dbb0c89a)
 
 
 Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
