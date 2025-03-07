@@ -1,8 +1,8 @@
 "use client";
 
-import type { NextPage } from "next";
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import type { NextPage } from "next";
 import { useScaffoldReadContract, useScaffoldWriteContract } from "~~/hooks/scaffold-eth";
 
 interface NFT {
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     if (allTokensData) {
-      setNfts([...allTokensData])
+      setNfts([...allTokensData]);
     }
   }, [allTokensData]);
 
@@ -162,7 +162,7 @@ const Home: NextPage = () => {
         </form>
       </div>
       <div className="flex justify-center mt-4">
-        <h1 className="font-bold text-3xl flex flex-col items-center mb-8">Gay Collection</h1>
+        <h1 className="font-bold text-3xl flex flex-col items-center mb-8">NFT Collection</h1>
       </div>
       <div className="flex justify-center  gap-4">{renderedNfts}</div>
       {error && <div className="text-red-500 text-xs text-center mt-1">{error.message}</div>}
