@@ -1,8 +1,8 @@
 "use client";
 
-import type { NextPage } from "next";
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import type { NextPage } from "next";
 import { useScaffoldReadContract, useScaffoldWriteContract } from "~~/hooks/scaffold-eth";
 
 interface NFT {
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     if (allTokensData) {
-      setNfts([...allTokensData])
+      setNfts([...allTokensData]);
     }
   }, [allTokensData]);
 
@@ -97,7 +97,7 @@ const Home: NextPage = () => {
         args: [recipientNftAddress, nftName, nftDescription, nftImageUrl],
       });
       console.log("Transaction successful: ", tx);
-      // refetchAllTokens();
+      refetchAllTokens();
     } catch (error) {
       console.error("Transaction failed:", error);
     }
