@@ -82,7 +82,7 @@ To know more about its features, check out our [website](https://scaffoldeth.io)
 We welcome contributions to Scaffold-ETH 2!
 
 ## Screenshot
-![image alt](https://github.com/TsangDaXin/ETH-Hackathon-BCC-)
+![nft 1](https://github.com/user-attachments/assets/4bca3ff3-9ac8-41c2-b2f8-86c9a6291b1b)
 
 
 Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
